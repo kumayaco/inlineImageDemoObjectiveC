@@ -30,6 +30,10 @@
     
     textAttachment.image = [self imageWithImage:image scaleToSize:CGSizeMake(17, 16)];
     
+    NSAttributedString *iconAttributedString = [NSAttributedString attributedStringWithAttachment:textAttachment];
+    
+    [mutableAttributedString replaceCharactersInRange:NSMakeRange(16, 2) withAttributedString:iconAttributedString];
+    
     self.label.attributedText = mutableAttributedString;
     
     [self.view addSubview:self.label];
