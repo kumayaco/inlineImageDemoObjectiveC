@@ -13,6 +13,7 @@
 		BF2FFDBC1A865BF300337462 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2FFDBB1A865BF300337462 /* Images.xcassets */; };
 		BF2FFDBF1A865BF300337462 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2FFDBD1A865BF300337462 /* LaunchScreen.xib */; };
 		BF2FFDCB1A865BF300337462 /* inlineImageDemoObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FFDCA1A865BF300337462 /* inlineImageDemoObjectiveCTests.m */; };
+		BF647F141A86606800A6C009 /* 1f601.png in Resources */ = {isa = PBXBuildFile; fileRef = BF647F131A86606800A6C009 /* 1f601.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BF2FFDC41A865BF300337462 /* inlineImageDemoObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inlineImageDemoObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2FFDC91A865BF300337462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF2FFDCA1A865BF300337462 /* inlineImageDemoObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inlineImageDemoObjectiveCTests.m; sourceTree = "<group>"; };
+		BF647F131A86606800A6C009 /* 1f601.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1f601.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				BF2FFDB61A865BF300337462 /* ViewController.m */,
 				BF2FFDBB1A865BF300337462 /* Images.xcassets */,
 				BF2FFDBD1A865BF300337462 /* LaunchScreen.xib */,
+				BF647F131A86606800A6C009 /* 1f601.png */,
 				BF2FFDAE1A865BF300337462 /* Supporting Files */,
 			);
 			path = inlineImageDemoObjectiveC;
@@ -198,6 +201,7 @@
 			files = (
 				BF2FFDBF1A865BF300337462 /* LaunchScreen.xib in Resources */,
 				BF2FFDBC1A865BF300337462 /* Images.xcassets in Resources */,
+				BF647F141A86606800A6C009 /* 1f601.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 				BF2FFDD01A865BF300337462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF2FFDD11A865BF300337462 /* Build configuration list for PBXNativeTarget "inlineImageDemoObjectiveCTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				BF2FFDD31A865BF300337462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -25,6 +25,11 @@
     
     NSMutableAttributedString *mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:@"this is a smile :)"];
     
+    NSTextAttachment *textAttachment = [[NSTextAttachment alloc] init];
+    UIImage *image = [UIImage imageNamed:@"1f601.png"];
+    
+    textAttachment.image = [self imageWithImage:image scaleToSize:CGSizeMake(17, 16)];
+    
     self.label.attributedText = mutableAttributedString;
     
     [self.view addSubview:self.label];
@@ -32,6 +37,18 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (UIImage *)imageWithImage:(UIImage *)image scaleToSize:(CGSize)size
+{
+    UIImage *newImage = nil;
+    
+    UIGraphicsBeginImageContextWithOptions(size, false, 0.0);
+    [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return newImage;
 }
 
 @end
